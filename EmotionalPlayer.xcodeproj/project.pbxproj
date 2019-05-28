@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3D01C4228F63FB00EE8EAC /* myList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A3D01C3228F63FB00EE8EAC /* myList.plist */; };
+		6A7EB9652241C6AC00ABEE0D /* God will take care of you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EB9642241C6AC00ABEE0D /* God will take care of you.mp3 */; };
+		6A8EE13F22349C0500F011E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8EE13E22349C0500F011E3 /* AppDelegate.swift */; };
+		6A8EE14622349C0600F011E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EE14522349C0600F011E3 /* Assets.xcassets */; };
+		6A8EE14922349C0600F011E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EE14722349C0600F011E3 /* LaunchScreen.storyboard */; };
+		6A8EE1512234AA0800F011E3 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8EE1502234AA0800F011E3 /* PlayerViewController.swift */; };
+		6ACE7039229B4FE300274E5A /* Draw me close to you- Thy will be done - Marvin Winans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6ACE7038229B4FE300274E5A /* Draw me close to you- Thy will be done - Marvin Winans.mp3 */; };
+		6ACE703B229BC3B400274E5A /* libraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE703A229BC3B400274E5A /* libraryViewController.swift */; };
+		6ACE703E229CFD0700274E5A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE703C229CFD0700274E5A /* TableViewCell.swift */; };
+		6ACE703F229CFD0700274E5A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACE703D229CFD0700274E5A /* TableViewCell.xib */; };
+		6ACE7041229CFEF600274E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACE7040229CFEF600274E5A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A3D01C3228F63FB00EE8EAC /* myList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = myList.plist; sourceTree = "<group>"; };
+		6A7EB9642241C6AC00ABEE0D /* God will take care of you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "God will take care of you.mp3"; sourceTree = "<group>"; };
+		6A8EE13B22349C0500F011E3 /* EmotionalPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionalPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A8EE13E22349C0500F011E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A8EE14522349C0600F011E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A8EE14822349C0600F011E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A8EE14A22349C0600F011E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A8EE1502234AA0800F011E3 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		6ACE7038229B4FE300274E5A /* Draw me close to you- Thy will be done - Marvin Winans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Draw me close to you- Thy will be done - Marvin Winans.mp3"; path = "../../../../Downloads/Draw me close to you- Thy will be done - Marvin Winans.mp3"; sourceTree = "<group>"; };
+		6ACE703A229BC3B400274E5A /* libraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libraryViewController.swift; sourceTree = "<group>"; };
+		6ACE703C229CFD0700274E5A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6ACE703D229CFD0700274E5A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		6ACE7040229CFEF600274E5A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A8EE13822349C0500F011E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A3D01C2228F639200EE8EAC /* Songs Data */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE7038229B4FE300274E5A /* Draw me close to you- Thy will be done - Marvin Winans.mp3 */,
+				6A7EB9642241C6AC00ABEE0D /* God will take care of you.mp3 */,
+				6A3D01C3228F63FB00EE8EAC /* myList.plist */,
+			);
+			path = "Songs Data";
+			sourceTree = "<group>";
+		};
+		6A8EE13222349C0500F011E3 = {
+			isa = PBXGroup;
+			children = (
+				6A3D01C2228F639200EE8EAC /* Songs Data */,
+				6A8EE13D22349C0500F011E3 /* EmotionalPlayer */,
+				6A8EE13C22349C0500F011E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A8EE13C22349C0500F011E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A8EE13B22349C0500F011E3 /* EmotionalPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A8EE13D22349C0500F011E3 /* EmotionalPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6A8EE1502234AA0800F011E3 /* PlayerViewController.swift */,
+				6ACE7040229CFEF600274E5A /* Main.storyboard */,
+				6A8EE13E22349C0500F011E3 /* AppDelegate.swift */,
+				6ACE703A229BC3B400274E5A /* libraryViewController.swift */,
+				6ACE703C229CFD0700274E5A /* TableViewCell.swift */,
+				6ACE703D229CFD0700274E5A /* TableViewCell.xib */,
+				6A8EE14522349C0600F011E3 /* Assets.xcassets */,
+				6A8EE14722349C0600F011E3 /* LaunchScreen.storyboard */,
+				6A8EE14A22349C0600F011E3 /* Info.plist */,
+			);
+			path = EmotionalPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A8EE13A22349C0500F011E3 /* EmotionalPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A8EE14D22349C0600F011E3 /* Build configuration list for PBXNativeTarget "EmotionalPlayer" */;
+			buildPhases = (
+				6A8EE13722349C0500F011E3 /* Sources */,
+				6A8EE13822349C0500F011E3 /* Frameworks */,
+				6A8EE13922349C0500F011E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionalPlayer;
+			productName = EmotionalPlayer;
+			productReference = 6A8EE13B22349C0500F011E3 /* EmotionalPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A8EE13322349C0500F011E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Isaac Annan";
+				TargetAttributes = {
+					6A8EE13A22349C0500F011E3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A8EE13622349C0500F011E3 /* Build configuration list for PBXProject "EmotionalPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A8EE13222349C0500F011E3;
+			productRefGroup = 6A8EE13C22349C0500F011E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A8EE13A22349C0500F011E3 /* EmotionalPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A8EE13922349C0500F011E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACE7041229CFEF600274E5A /* Main.storyboard in Resources */,
+				6A8EE14922349C0600F011E3 /* LaunchScreen.storyboard in Resources */,
+				6A3D01C4228F63FB00EE8EAC /* myList.plist in Resources */,
+				6ACE703F229CFD0700274E5A /* TableViewCell.xib in Resources */,
+				6A7EB9652241C6AC00ABEE0D /* God will take care of you.mp3 in Resources */,
+				6A8EE14622349C0600F011E3 /* Assets.xcassets in Resources */,
+				6ACE7039229B4FE300274E5A /* Draw me close to you- Thy will be done - Marvin Winans.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A8EE13722349C0500F011E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACE703B229BC3B400274E5A /* libraryViewController.swift in Sources */,
+				6ACE703E229CFD0700274E5A /* TableViewCell.swift in Sources */,
+				6A8EE13F22349C0500F011E3 /* AppDelegate.swift in Sources */,
+				6A8EE1512234AA0800F011E3 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A8EE14722349C0600F011E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A8EE14822349C0600F011E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A8EE14B22349C0600F011E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A8EE14C22349C0600F011E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A8EE14E22349C0600F011E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmotionalPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qodehub.EmotionalPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A8EE14F22349C0600F011E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmotionalPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qodehub.EmotionalPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A8EE13622349C0500F011E3 /* Build configuration list for PBXProject "EmotionalPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A8EE14B22349C0600F011E3 /* Debug */,
+				6A8EE14C22349C0600F011E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A8EE14D22349C0600F011E3 /* Build configuration list for PBXNativeTarget "EmotionalPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A8EE14E22349C0600F011E3 /* Debug */,
+				6A8EE14F22349C0600F011E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A8EE13322349C0500F011E3 /* Project object */;
+}
